@@ -149,7 +149,7 @@ abstract contract GovernorCountingFractionalUpgradeable is Initializable, Govern
      *
      * NOTE: Consider that fractional voting restricts the number of casted vote (in each category) to 128 bits.
      * Depending on how many decimals the underlying token has, a single voter may require to split their vote into
-     * multiple vote operations. For precision higher than ~30 decimals, large token holders may require an
+     * multiple vote operations. For precision higher than ~30 decimals, large token holders may require a
      * potentially large number of calls to cast all their votes. The voter has the possibility to cast all the
      * remaining votes in a single operation using the traditional "bravo" vote.
      */
